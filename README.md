@@ -1,5 +1,9 @@
 # Seinfeld_Scraping
 
+Introduction: 
+
+Seinfeld is a popular sitcom that aired from 1989 to 1998. It was created by Larry David and Jerry Seinfeld. The show is known for its humor, sarcasm, and memorable characters. I thought using analyzing dialogue from a show like Seinfeld would be a fun way implement some of the tools that we learned in class. I also wanted to try my hand at sarcasm detection because the element of sarcasm is a huge part of the humor in Seinfeld. In this project, I analyze dialogue spanning all of the nine seasons that Seinfeld was on the air. I performed sentiment analysis, topic modeling, and sarcasm detection on the text. The questions that I will be attemping to answer are: Out of the most frequently occuring characters, who has the highest/lowest average sentiment score? What are the most prevalent topics in the show and do they display any similarity? Which character is the most sarcastic?
+
 Results: 
 
 Through applying sentiment analysis, I found that the character with the highest sentiment score was Newman and the character that had the lowest was Frank Costanza. Frank Costanza is known for being a very angry and bitter character so it does make sense that he would have the lowest sentiment score. The most prevalent topics in the show had high frequency of the four main characters names, Jerry, George, Elaine, Kramer. Other underlying themes are present upon futher inspection such as travel, doctor, things relating to eyes, and housing to name a few. After performing sarcasm detection using a pre trained hugging face model I found that the character that had the highest tendency to be sarcastic was Estelle Costanza. Kramer was a close second followed by Newman and Elaine. I attempted to run a hugging face text classification model that had an irony detection component but I was unable to get it to work as tensor size errors kept popping up.
